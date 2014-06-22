@@ -30,7 +30,7 @@ var analyze = function(budge, shields){
 
 module.exports.analysis = function(data, shields){
   data.subject= 'findbugs';
-  data.status= 'ok';
+  data.status= 'fail';
   data.color= 'FF6161';
   analyze(data, shields);
 };
