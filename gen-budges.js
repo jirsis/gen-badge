@@ -22,7 +22,7 @@ fs.readdir(process.argv[2], function(err, files){
       switch (val){
       case 'checkstyle-result.xml':
         data = checkstyle.analysis(data);
-        console.log('not yet developed');
+        console.log('checkstyle not yet developed');
         //shields.budge(data);
         break;
       case 'findbugs.xml':
@@ -30,7 +30,7 @@ fs.readdir(process.argv[2], function(err, files){
         break;
       case 'pmd.xml':
         data = pmd.analysis(data);
-        console.log('not yet developed');
+        console.log('pmd not yet developed');
         //shields.budge(data);
         break;
       }
