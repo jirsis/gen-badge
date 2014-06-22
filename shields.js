@@ -1,5 +1,6 @@
 var fs = require('fs');
 var http = require('http');
+var path = require('path');
 
 var shields = function(budge){
   var url ='http://img.shields.io/badge/'
@@ -17,7 +18,7 @@ var shields = function(budge){
         file.once('open', function(fd){
           file.write(body);
           file.close();
-          console.log('Generated '+budge.subject+'.svg');
+          console.log('Generated '+path.resolve(budge.subject)+'.svg');
         });
     });
   }).on('error', function(e) {

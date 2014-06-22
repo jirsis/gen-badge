@@ -1,4 +1,5 @@
 var fs = require('fs');
+var path = require('path');
 var checkstyle = require('./checkstyle');
 var pmd = require('./pmd');
 var findbugs = require('./findbugs');
@@ -17,19 +18,20 @@ fs.readdir(process.argv[2], function(err, files){
   }else{
     files.forEach(function(val, index, array){
       var data = {};
-      data.path= process.argv[2];
+      data.path= path.resolve(process.argv[2])+path.sep;
       switch (val){
       case 'checkstyle-result.xml':
         data = checkstyle.analysis(data);
-        shields.budge(data);
+        console.log('not yet developed');
+        //shields.budge(data);
         break;
       case 'findbugs.xml':
-        data = findbugs.analysis(data);
-        shields.budge(data);
+        findbugs.analysis(data, shields.budge);
         break;
       case 'pmd.xml':
         data = pmd.analysis(data);
-        shields.budge(data);
+        console.log('not yet developed');
+        //shields.budge(data);
         break;
       }
     });
