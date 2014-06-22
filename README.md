@@ -11,6 +11,6 @@ npm install
 ````
 
 The result generate a set of budges into the target dir:
-* pmd.svg ![pmd example ok](http://img.shields.io/badge/pmd-ok-01A9DB.svg)
-* checkstyle.svg ![checkstyle example ok](http://img.shields.io/badge/checkstyle-ok-BF00FF.svg)
-* findbugs.svg ![findbugs example ok](http://img.shields.io/badge/findbugs-ok-FF6161.svg)
+* pmd.svg ![pmd example ok](http://img.shields.io/badge/pmd-0 violations-brightgreen.svg)
+* checkstyle.svg ![checkstyle example ok](http://img.shields.io/badge/checkstyle-0 errors-brightgreen.svg)
+* findbugs.svg ![findbugs example ok](http://img.shields.io/badge/findbugs-0 bugs-brightgreen.svg)
