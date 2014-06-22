@@ -1,0 +1,24 @@
+{
+  "name": "gen-bugdes",
+  "version": "0.1.0",
+  "description": "Generate budges to pmd, checkstyle and findbugs maven report",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jirsis/gen-bugde"
+  },
+  "keywords": [
+    "shields.io",
+    "budge",
+    "pmd",
+    "checkstyle",
+    "findbugs"
+  ],
+  "author": "J. Ignacio Reta Sabarrós",
+  "bugs": {
+    "url": "https://github.com/jirsis/gen-bugde/issues"
+  },
+  "homepage": "https://github.com/jirsis/gen-bugde",
+  "dependencies": {
+    "cheerio": "^0.17.0"
+  }
+}
