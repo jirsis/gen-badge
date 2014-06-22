@@ -12,10 +12,8 @@ var calculateColor = function(status){
     return 'yellow';
   }else if (status > 30 && status <= 40){
     return 'orange';
-  }else if (status > 40 && status <= 50){
-    return 'red';
   }else {
-    return 'FF0000';
+    return 'red';
   }
 }
 
