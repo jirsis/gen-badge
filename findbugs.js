@@ -22,7 +22,7 @@ var calculateColor = function(status){
 var analyze = function(budge, shields){
   fs.readFile(budge.path+budge.subject+'.xml', function(err, data){
     var $ = cheerio.load(data.toString(), {xmlMode: true});
-    budge.status = $('BugInstance').toArray().length;
+    budge.status = $('BugInstance').toArray().length+ ' bugs';
     budge.color = calculateColor(budge.status);
     shields(budge);
   });
