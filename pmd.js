@@ -5,4 +5,4 @@ var generateData = function(data){
   return data;
 }
 
-module.exports.analysis = generateData;
+module.exports.analisys = generateData;

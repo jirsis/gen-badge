@@ -21,15 +21,13 @@ fs.readdir(process.argv[2], function(err, files){
       data.path= path.resolve(process.argv[2])+path.sep;
       switch (val){
       case 'checkstyle-result.xml':
-        data = checkstyle.analysis(data);
-        console.log('checkstyle not yet developed');
-        //shields.budge(data);
+        checkstyle.analisys(data, shields.budge);
         break;
       case 'findbugs.xml':
-        findbugs.analysis(data, shields.budge);
+        findbugs.analisys(data, shields.budge);
         break;
       case 'pmd.xml':
-        data = pmd.analysis(data);
+        data = pmd.analisys(data);
         console.log('pmd not yet developed');
         //shields.budge(data);
         break;
