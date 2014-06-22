@@ -27,9 +27,8 @@ fs.readdir(process.argv[2], function(err, files){
         findbugs.analisys(data, shields.budge);
         break;
       case 'pmd.xml':
-        data = pmd.analisys(data);
-        console.log('pmd not yet developed');
-        //shields.budge(data);
+        pmd.analisys(data, shields.budge);
+
         break;
       }
     });
