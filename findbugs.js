@@ -26,7 +26,7 @@ var analyze = function(budge, shields){
   });
 }
 
-module.exports.analisys = function(data, shields){
+module.exports.analysis = function(data, shields){
   data.subject= 'findbugs';
   data.status= 'fail';
   data.color= 'FF6161';

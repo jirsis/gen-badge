@@ -23,13 +23,13 @@ fs.readdir(process.argv[2], function(err, files){
       data.path= path.resolve(process.argv[2])+path.sep;
       switch (val){
       case 'checkstyle-result.xml':
-        checkstyle.analisys(data, shields.budge);
+        checkstyle.analysis(data, shields.budge);
         break;
       case 'findbugs.xml':
-        findbugs.analisys(data, shields.budge);
+        findbugs.analysis(data, shields.budge);
         break;
       case 'pmd.xml':
-        pmd.analisys(data, shields.budge);
+        pmd.analysis(data, shields.budge);
 
         break;
       }

@@ -27,7 +27,7 @@ var analyze = function(budge, shields){
   });
 }
 
-module.exports.analisys = function(data, shields){
+module.exports.analysis = function(data, shields){
   data.file = 'checkstyle-result'
   data.subject= 'checkstyle';
   data.status= 'fail';
