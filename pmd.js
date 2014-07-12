@@ -1,27 +1,37 @@
 var cheerio = require('cheerio');
 var fs = require('fs');
 
-var calculateColor = function(status){
-  if(status === 0 ){
-    return 'brightgreen';
-  }else if (status > 0 && status <= 25){
-    return 'green';
-  }else if (status > 25 && status <= 50){
-    return 'yellowgreen';
-  }else if (status > 50 && status <= 75){
-    return 'yellow';
-  }else if (status > 75 && status <= 100){
-    return 'orange';
-  }else {
-    return 'red';
-  }
+var coloursValues = require('./colours').colours;
+var colours = require('./colours');
+
+var calculateColor = function(info, minor, mayor, critical, blocker){
+  var color = colours.calculate(info, 1000);
+  color = Math.max(color, colours.calculate(minor, 500));
+  color = Math.max(color, colours.calculate(mayor, 150));
+  color = Math.max(color, colours.calculate(critical, 5));
+  color = Math.max(color, colours.calculate(blocker, 0));
+  return coloursValues[color];
 }
 
 var analyze = function(budge, shields){
   fs.readFile(budge.path+budge.subject+'.xml', function(err, data){
     var $ = cheerio.load(data.toString(), {xmlMode: true});
-    budge.status = $('violation').toArray().length+ ' violations';
-    budge.color = calculateColor(budge.status);
+    var blockers = criticals = mayors = minors = infos = 0;
+    $('violation').toArray().forEach(function(item){
+      if($(item).attr('priority') === '5'){
+        infos++;
+      }else if($(item).attr('priority') === '4'){
+        minors++;
+      }else if($(item).attr('priority') === '3'){
+        mayors++;
+      }else if($(item).attr('priority') === '2'){
+        criticals++;
+      }else {
+        blockers++;
+      }
+    });
+    budge.status = 'B:'+blockers+' C:'+criticals + ' M:'+mayors+' m:'+minors + ' i:'+infos+ ' violations';
+    budge.color = calculateColor(infos, minors, mayors, criticals, blockers);
     shields(budge);
   });
 }
