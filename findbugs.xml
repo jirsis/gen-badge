@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BugCollection version='2.0.3' threshold='low' effort='max'><Error></Error><Project><SrcDir>/Users/jirsis/Documents/uni/ProGen/progen/src/main/java</SrcDir><SrcDir>/Users/jirsis/Documents/uni/ProGen/progen/src/test/java</SrcDir></Project></BugCollection>

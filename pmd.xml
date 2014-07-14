@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.0.5" timestamp="2014-07-13T21:06:07.754">
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/app/blockStacking/BlockStacking.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="25" rule="PackageCase" ruleset="Naming" package="app.blockStacking" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#PackageCase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="30" endline="54" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="app.blockStacking" class="BlockStacking" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="53" endline="53" begincolumn="5" endcolumn="28" rule="UnnecessaryLocalBeforeReturn" ruleset="Design" package="app.blockStacking" class="BlockStacking" method="fitness" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#UnnecessaryLocalBeforeReturn" priority="3">
+Consider simply returning the value vs storing it in local variable 'fitness'
+</violation>
+<violation beginline="57" endline="57" begincolumn="5" endcolumn="22" rule="SystemPrintln" ruleset="Java Logging" package="app.blockStacking" class="BlockStacking" method="initialize" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="64" endline="86" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="app.blockStacking" class="BlockStacking" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="89" endline="89" begincolumn="5" endcolumn="22" rule="SystemPrintln" ruleset="Java Logging" package="app.blockStacking" class="BlockStacking" method="printInitialState" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="91" endline="91" begincolumn="7" endcolumn="24" rule="SystemPrintln" ruleset="Java Logging" package="app.blockStacking" class="BlockStacking" method="printInitialState" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="93" endline="93" begincolumn="5" endcolumn="20" rule="SystemPrintln" ruleset="Java Logging" package="app.blockStacking" class="BlockStacking" method="printInitialState" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="95" endline="95" begincolumn="7" endcolumn="22" rule="SystemPrintln" ruleset="Java Logging" package="app.blockStacking" class="BlockStacking" method="printInitialState" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="97" endline="97" begincolumn="5" endcolumn="22" rule="SystemPrintln" ruleset="Java Logging" package="app.blockStacking" class="BlockStacking" method="printInitialState" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="101" endline="101" begincolumn="5" endcolumn="22" rule="SystemPrintln" ruleset="Java Logging" package="app.blockStacking" class="BlockStacking" method="printCurrentState" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="103" endline="103" begincolumn="7" endcolumn="24" rule="SystemPrintln" ruleset="Java Logging" package="app.blockStacking" class="BlockStacking" method="printCurrentState" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="105" endline="105" begincolumn="5" endcolumn="20" rule="SystemPrintln" ruleset="Java Logging" package="app.blockStacking" class="BlockStacking" method="printCurrentState" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="107" endline="107" begincolumn="7" endcolumn="22" rule="SystemPrintln" ruleset="Java Logging" package="app.blockStacking" class="BlockStacking" method="printCurrentState" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="109" endline="109" begincolumn="5" endcolumn="22" rule="SystemPrintln" ruleset="Java Logging" package="app.blockStacking" class="BlockStacking" method="printCurrentState" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/app/blockStacking/CS.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="25" rule="PackageCase" ruleset="Naming" package="app.blockStacking" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#PackageCase" priority="3">
+Package name contains upper case characters
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/app/blockStacking/DUFc.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="25" rule="PackageCase" ruleset="Naming" package="app.blockStacking" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#PackageCase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="41" endline="41" begincolumn="19" endcolumn="20" rule="ShortVariable" ruleset="Naming" package="app.blockStacking" class="DUFc" method="evaluate" variable="sf" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like sf
+</violation>
+<violation beginline="49" endline="49" begincolumn="7" endcolumn="28" rule="OnlyOneReturn" ruleset="Controversial" package="app.blockStacking" class="DUFc" method="evaluate" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/controversial.html#OnlyOneReturn" priority="4">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/app/blockStacking/EQFc.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="25" rule="PackageCase" ruleset="Naming" package="app.blockStacking" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#PackageCase" priority="3">
+Package name contains upper case characters
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/app/blockStacking/MSFc.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="25" rule="PackageCase" ruleset="Naming" package="app.blockStacking" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#PackageCase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="40" endline="60" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="app.blockStacking" class="MSFc" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="42" endline="42" begincolumn="19" endcolumn="20" rule="ShortVariable" ruleset="Naming" package="app.blockStacking" class="MSFc" method="evaluate" variable="sf" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like sf
+</violation>
+<violation beginline="54" endline="54" begincolumn="13" endcolumn="34" rule="OnlyOneReturn" ruleset="Controversial" package="app.blockStacking" class="MSFc" method="evaluate" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/controversial.html#OnlyOneReturn" priority="4">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/app/blockStacking/MTFc.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="25" rule="PackageCase" ruleset="Naming" package="app.blockStacking" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#PackageCase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="40" endline="66" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="app.blockStacking" class="MTFc" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="42" endline="42" begincolumn="19" endcolumn="20" rule="ShortVariable" ruleset="Naming" package="app.blockStacking" class="MTFc" method="evaluate" variable="sf" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like sf
+</violation>
+<violation beginline="60" endline="60" begincolumn="13" endcolumn="34" rule="OnlyOneReturn" ruleset="Controversial" package="app.blockStacking" class="MTFc" method="evaluate" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/controversial.html#OnlyOneReturn" priority="4">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/app/blockStacking/NN.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="25" rule="PackageCase" ruleset="Naming" package="app.blockStacking" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#PackageCase" priority="3">
+Package name contains upper case characters
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/app/blockStacking/NOTFc.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="25" rule="PackageCase" ruleset="Naming" package="app.blockStacking" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#PackageCase" priority="3">
+Package name contains upper case characters
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/app/blockStacking/TB.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="25" rule="PackageCase" ruleset="Naming" package="app.blockStacking" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#PackageCase" priority="3">
+Package name contains upper case characters
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/app/regression/FitnessCase.java">
+<violation beginline="5" endline="5" begincolumn="17" endcolumn="17" rule="ShortVariable" ruleset="Naming" package="app.regression" class="FitnessCase" variable="x" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like x
+</violation>
+<violation beginline="6" endline="6" begincolumn="17" endcolumn="17" rule="ShortVariable" ruleset="Naming" package="app.regression" class="FitnessCase" variable="y" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like y
+</violation>
+<violation beginline="7" endline="7" begincolumn="17" endcolumn="17" rule="ShortVariable" ruleset="Naming" package="app.regression" class="FitnessCase" variable="z" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like z
+</violation>
+<violation beginline="9" endline="9" begincolumn="29" endcolumn="29" rule="ShortVariable" ruleset="Naming" package="app.regression" class="FitnessCase" variable="x" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like x
+</violation>
+<violation beginline="9" endline="9" begincolumn="39" endcolumn="39" rule="ShortVariable" ruleset="Naming" package="app.regression" class="FitnessCase" variable="y" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like y
+</violation>
+<violation beginline="9" endline="9" begincolumn="49" endcolumn="49" rule="ShortVariable" ruleset="Naming" package="app.regression" class="FitnessCase" variable="z" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like z
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/app/regression/Regression.java">
+<violation beginline="15" endline="53" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="app.regression" class="Regression" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="27" endline="27" begincolumn="12" endcolumn="12" rule="ShortVariable" ruleset="Naming" package="app.regression" class="Regression" method="fitness" variable="z" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like z
+</violation>
+<violation beginline="32" endline="32" begincolumn="19" endcolumn="19" rule="ShortVariable" ruleset="Naming" package="app.regression" class="Regression" method="fitness" variable="f" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like f
+</violation>
+<violation beginline="47" endline="47" begincolumn="7" endcolumn="30" rule="OnlyOneReturn" ruleset="Controversial" package="app.regression" class="Regression" method="fitness" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/controversial.html#OnlyOneReturn" priority="4">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="49" endline="49" begincolumn="7" endcolumn="30" rule="OnlyOneReturn" ruleset="Controversial" package="app.regression" class="Regression" method="fitness" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/controversial.html#OnlyOneReturn" priority="4">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="56" endline="86" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="app.regression" class="Regression" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="57" endline="57" begincolumn="12" endcolumn="12" rule="ShortVariable" ruleset="Naming" package="app.regression" class="Regression" method="initialize" variable="x" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like x
+</violation>
+<violation beginline="58" endline="58" begincolumn="12" endcolumn="12" rule="ShortVariable" ruleset="Naming" package="app.regression" class="Regression" method="initialize" variable="y" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like y
+</violation>
+<violation beginline="59" endline="59" begincolumn="12" endcolumn="12" rule="ShortVariable" ruleset="Naming" package="app.regression" class="Regression" method="initialize" variable="z" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like z
+</violation>
+<violation beginline="60" endline="60" begincolumn="9" endcolumn="9" rule="ShortVariable" ruleset="Naming" package="app.regression" class="Regression" method="initialize" variable="i" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like i
+</violation>
+<violation beginline="94" endline="94" begincolumn="29" endcolumn="29" rule="ShortVariable" ruleset="Naming" package="app.regression" class="Regression" method="SR3" variable="x" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like x
+</violation>
+<violation beginline="94" endline="94" begincolumn="39" endcolumn="39" rule="ShortVariable" ruleset="Naming" package="app.regression" class="Regression" method="SR3" variable="y" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like y
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/ProGen.java">
+<violation beginline="39" endline="39" begincolumn="5" endcolumn="22" rule="SystemPrintln" ruleset="Java Logging" package="progen" class="ProGen" method="runProGen" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="53" endline="74" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen" class="ProGen" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="55" endline="73" begincolumn="5" endcolumn="5" rule="ConfusingTernary" ruleset="Design" package="progen" class="ProGen" method="main" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="56" endline="56" begincolumn="7" endcolumn="24" rule="SystemPrintln" ruleset="Java Logging" package="progen" class="ProGen" method="main" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="62" endline="62" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Java Logging" package="progen" class="ProGen" method="main" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="64" endline="64" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Java Logging" package="progen" class="ProGen" method="main" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="66" endline="66" begincolumn="9" endcolumn="27" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="progen" class="ProGen" method="main" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="68" endline="68" begincolumn="9" endcolumn="27" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="progen" class="ProGen" method="main" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="71" endline="71" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Java Logging" package="progen" class="ProGen" method="main" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/context/ProGenContext.java">
+<violation beginline="63" endline="85" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.context" class="ProGenContext" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="78" endline="78" begincolumn="16" endcolumn="35" rule="AvoidCatchingNPE" ruleset="Strict Exceptions" package="progen.context" class="ProGenContext" method="makeInstance" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strictexception.html#AvoidCatchingNPE" priority="3">
+Avoid catching NullPointerException; consider removing the cause of the NPE.
+</violation>
+<violation beginline="79" endline="79" begincolumn="9" endcolumn="62" rule="PreserveStackTrace" ruleset="Design" package="progen.context" class="ProGenContext" method="makeInstance" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="81" endline="81" begincolumn="9" endcolumn="62" rule="PreserveStackTrace" ruleset="Design" package="progen.context" class="ProGenContext" method="makeInstance" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="118" endline="118" begincolumn="7" endcolumn="26" rule="OnlyOneReturn" ruleset="Controversial" package="progen.context" class="ProGenContext" method="getOptionalProperty" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/controversial.html#OnlyOneReturn" priority="4">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="160" endline="160" begincolumn="7" endcolumn="26" rule="OnlyOneReturn" ruleset="Controversial" package="progen.context" class="ProGenContext" method="getOptionalProperty" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/controversial.html#OnlyOneReturn" priority="4">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="180" endline="180" begincolumn="7" endcolumn="26" rule="OnlyOneReturn" ruleset="Controversial" package="progen.context" class="ProGenContext" method="getOptionalProperty" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/controversial.html#OnlyOneReturn" priority="4">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="287" endline="287" begincolumn="22" endcolumn="22" rule="ShortVariable" ruleset="Naming" package="progen.context" class="ProGenContext" method="getFamilyOptions" variable="i" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like i
+</violation>
+<violation beginline="370" endline="394" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.context" class="ProGenContext" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="390" endline="390" begincolumn="9" endcolumn="75" rule="PreserveStackTrace" ruleset="Design" package="progen.context" class="ProGenContext" method="getParameters" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="401" endline="401" begincolumn="7" endcolumn="63" rule="PreserveStackTrace" ruleset="Design" package="progen.context" class="ProGenContext" method="loadExtraConfiguration" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="403" endline="403" begincolumn="7" endcolumn="62" rule="PreserveStackTrace" ruleset="Design" package="progen.context" class="ProGenContext" method="loadExtraConfiguration" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="531" endline="531" begincolumn="19" endcolumn="39" rule="UseIndexOfChar" ruleset="String and StringBuffer" package="progen.context" class="ProGenContext" method="convertClasspath2Path" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#UseIndexOfChar" priority="3">
+String.indexOf(char) is faster than String.indexOf(String).
+</violation>
+<violation beginline="556" endline="556" begincolumn="38" endcolumn="57" rule="UseIndexOfChar" ruleset="String and StringBuffer" package="progen.context" class="ProGenContext" method="setUserHome" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#UseIndexOfChar" priority="3">
+String.indexOf(char) is faster than String.indexOf(String).
+</violation>
+<violation beginline="558" endline="558" begincolumn="38" endcolumn="57" rule="UseIndexOfChar" ruleset="String and StringBuffer" package="progen.context" class="ProGenContext" method="setUserHome" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#UseIndexOfChar" priority="3">
+String.indexOf(char) is faster than String.indexOf(String).
+</violation>
+<violation beginline="565" endline="565" begincolumn="41" endcolumn="60" rule="UseIndexOfChar" ruleset="String and StringBuffer" package="progen.context" class="ProGenContext" method="setExperimentName" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#UseIndexOfChar" priority="3">
+String.indexOf(char) is faster than String.indexOf(String).
+</violation>
+<violation beginline="577" endline="617" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.context" class="ProGenContext" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/experimenter/Experimenter.java">
+<violation beginline="27" endline="27" begincolumn="5" endcolumn="28" rule="ConstructorCallsOverridableMethod" ruleset="Design" package="progen.experimenter" class="Experimenter" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#ConstructorCallsOverridableMethod" priority="3">
+Overridable method 'generateOutputDir' called during object construction
+</violation>
+<violation beginline="42" endline="42" begincolumn="61" endcolumn="79" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.experimenter" class="Experimenter" method="dumpContext" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;progen.output.dir&quot; appears 6 times in this file; the first occurrence is on line 42
+</violation>
+<violation beginline="68" endline="97" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.experimenter" class="Experimenter" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="81" endline="81" begincolumn="7" endcolumn="71" rule="PreserveStackTrace" ruleset="Design" package="progen.experimenter" class="Experimenter" method="copyFileSecure" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="83" endline="83" begincolumn="7" endcolumn="57" rule="PreserveStackTrace" ruleset="Design" package="progen.experimenter" class="Experimenter" method="copyFileSecure" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="93" endline="93" begincolumn="9" endcolumn="59" rule="PreserveStackTrace" ruleset="Design" package="progen.experimenter" class="Experimenter" method="copyFileSecure" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="118" endline="129" begincolumn="5" endcolumn="5" rule="ConfusingTernary" ruleset="Design" package="progen.experimenter" class="Experimenter" method="deleteDirectory" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="141" endline="161" begincolumn="13" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.experimenter" class="Experimenter" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/experimenter/MultipleExperimenter.java">
+<violation beginline="82" endline="116" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.experimenter" class="MultipleExperimenter" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="95" endline="95" begincolumn="13" endcolumn="13" rule="ShortVariable" ruleset="Naming" package="progen.experimenter" class="MultipleExperimenter" method="updateValues" variable="i" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like i
+</violation>
+<violation beginline="187" endline="187" begincolumn="7" endcolumn="57" rule="PreserveStackTrace" ruleset="Design" package="progen.experimenter" class="MultipleExperimenter" method="dumpResults" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/experimenter/property/EnumerationProperty.java">
+<violation beginline="103" endline="103" begincolumn="24" endcolumn="34" rule="InefficientStringBuffering" ruleset="String and StringBuffer" package="progen.experimenter.property" class="EnumerationProperty" method="toString" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#InefficientStringBuffering" priority="3">
+Avoid concatenating nonliterals in a StringBuffer/StringBuilder constructor or append().
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/experimenter/property/LoopProperty.java">
+<violation beginline="75" endline="75" begincolumn="13" endcolumn="52" rule="PreserveStackTrace" ruleset="Design" package="progen.experimenter.property" class="LoopProperty" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="77" endline="77" begincolumn="13" endcolumn="78" rule="PreserveStackTrace" ruleset="Design" package="progen.experimenter.property" class="LoopProperty" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="98" endline="98" begincolumn="34" endcolumn="35" rule="AddEmptyString" ruleset="Optimization" package="progen.experimenter.property" class="LoopProperty" method="getValue" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="100" endline="100" begincolumn="41" endcolumn="42" rule="AddEmptyString" ruleset="Optimization" package="progen.experimenter.property" class="LoopProperty" method="getValue" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="145" endline="145" begincolumn="20" endcolumn="30" rule="InefficientStringBuffering" ruleset="String and StringBuffer" package="progen.experimenter.property" class="LoopProperty" method="toString" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#InefficientStringBuffering" priority="3">
+Avoid concatenating nonliterals in a StringBuffer/StringBuilder constructor or append().
+</violation>
+<violation beginline="146" endline="146" begincolumn="20" endcolumn="28" rule="InefficientStringBuffering" ruleset="String and StringBuffer" package="progen.experimenter.property" class="LoopProperty" method="toString" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#InefficientStringBuffering" priority="3">
+Avoid concatenating nonliterals in a StringBuffer/StringBuilder constructor or append().
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/experimenter/property/condition/GratherEqualThanLoopCondition.java">
+<violation beginline="21" endline="25" begincolumn="12" endcolumn="5" rule="CallSuperInConstructor" ruleset="Controversial" package="progen.experimenter.property.condition" class="GratherEqualThanLoopCondition" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/controversial.html#CallSuperInConstructor" priority="4">
+It is a good practice to call super() in a constructor
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/experimenter/property/condition/LessEqualThanLoopCondition.java">
+<violation beginline="21" endline="25" begincolumn="12" endcolumn="5" rule="CallSuperInConstructor" ruleset="Controversial" package="progen.experimenter.property.condition" class="LessEqualThanLoopCondition" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/controversial.html#CallSuperInConstructor" priority="4">
+It is a good practice to call super() in a constructor
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/error/Error.java">
+<violation beginline="75" endline="75" begincolumn="5" endcolumn="22" rule="SystemPrintln" ruleset="Java Logging" package="progen.kernel.error" class="Error" method="println" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/error/Info.java">
+<violation beginline="19" endline="19" begincolumn="31" endcolumn="32" rule="ShortVariable" ruleset="Naming" package="progen.kernel.error" class="Info" method="show" variable="id" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="21" endline="21" begincolumn="5" endcolumn="22" rule="SystemPrintln" ruleset="Java Logging" package="progen.kernel.error" class="Info" method="show" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="30" endline="30" begincolumn="31" endcolumn="32" rule="ShortVariable" ruleset="Naming" package="progen.kernel.error" class="Info" method="show" variable="id" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="32" endline="32" begincolumn="5" endcolumn="22" rule="SystemPrintln" ruleset="Java Logging" package="progen.kernel.error" class="Info" method="show" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="35" endline="35" begincolumn="32" endcolumn="33" rule="ShortVariable" ruleset="Naming" package="progen.kernel.error" class="Info" method="get" variable="id" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/error/Warning.java">
+<violation beginline="19" endline="19" begincolumn="31" endcolumn="32" rule="ShortVariable" ruleset="Naming" package="progen.kernel.error" class="Warning" method="show" variable="id" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="22" endline="22" begincolumn="5" endcolumn="22" rule="SystemPrintln" ruleset="Java Logging" package="progen.kernel.error" class="Warning" method="show" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="31" endline="31" begincolumn="31" endcolumn="32" rule="ShortVariable" ruleset="Naming" package="progen.kernel.error" class="Warning" method="show" variable="id" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="34" endline="34" begincolumn="5" endcolumn="22" rule="SystemPrintln" ruleset="Java Logging" package="progen.kernel.error" class="Warning" method="show" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/evolution/GenneticFactory.java">
+<violation beginline="43" endline="43" begincolumn="124" endcolumn="125" rule="AddEmptyString" ruleset="Optimization" package="progen.kernel.evolution" class="GenneticFactory" method="checkProbability" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="43" endline="43" begincolumn="55" endcolumn="80" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.kernel.evolution" class="GenneticFactory" method="checkProbability" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;progen.gennetic.operator&quot; appears 4 times in this file; the first occurrence is on line 43
+</violation>
+<violation beginline="57" endline="87" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.kernel.evolution" class="GenneticFactory" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="72" endline="72" begincolumn="134" endcolumn="135" rule="AddEmptyString" ruleset="Optimization" package="progen.kernel.evolution" class="GenneticFactory" method="loadOperators" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="82" endline="82" begincolumn="9" endcolumn="69" rule="PreserveStackTrace" ruleset="Design" package="progen.kernel.evolution" class="GenneticFactory" method="loadOperators" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="84" endline="84" begincolumn="9" endcolumn="60" rule="PreserveStackTrace" ruleset="Design" package="progen.kernel.evolution" class="GenneticFactory" method="loadOperators" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/evolution/operators/OnePointCrossover.java">
+<violation beginline="33" endline="53" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.kernel.evolution.operators" class="OnePointCrossover" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/evolution/operators/PointMutation.java">
+<violation beginline="63" endline="100" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.kernel.evolution.operators" class="PointMutation" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/evolution/operators/StandardCrossover.java">
+<violation beginline="36" endline="69" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.kernel.evolution.operators" class="StandardCrossover" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="39" endline="67" begincolumn="17" endcolumn="17" rule="ConfusingTernary" ruleset="Design" package="progen.kernel.evolution.operators" class="StandardCrossover" method="evolve" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="79" endline="109" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.kernel.evolution.operators" class="StandardCrossover" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="139" endline="165" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.kernel.evolution.operators" class="StandardCrossover" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="172" endline="172" begincolumn="44" endcolumn="44" rule="ShortVariable" ruleset="Naming" package="progen.kernel.evolution.operators" class="StandardCrossover" method="checkTreeSize" variable="t" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like t
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/evolution/selector/Roulette.java">
+<violation beginline="21" endline="48" begincolumn="16" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.kernel.evolution.selector" class="Roulette" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/evolution/selector/Selector.java">
+<violation beginline="35" endline="35" begincolumn="7" endcolumn="47" rule="PreserveStackTrace" ruleset="Design" package="progen.kernel.evolution.selector" class="Selector" method="makeSelector" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="37" endline="37" begincolumn="7" endcolumn="47" rule="PreserveStackTrace" ruleset="Design" package="progen.kernel.evolution.selector" class="Selector" method="makeSelector" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="39" endline="39" begincolumn="7" endcolumn="47" rule="PreserveStackTrace" ruleset="Design" package="progen.kernel.evolution.selector" class="Selector" method="makeSelector" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/evolution/selector/Tournament.java">
+<violation beginline="38" endline="62" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.kernel.evolution.selector" class="Tournament" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="82" endline="82" begincolumn="13" endcolumn="57" rule="PreserveStackTrace" ruleset="Design" package="progen.kernel.evolution.selector" class="Tournament" method="setParams" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/functions/ARG.java">
+<violation beginline="34" endline="34" begincolumn="50" endcolumn="51" rule="ShortVariable" ruleset="Naming" package="progen.kernel.functions" class="ARG" variable="id" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/functions/Bit32ERC.java">
+<violation beginline="35" endline="39" begincolumn="3" endcolumn="3" rule="CloneMethodMustImplementCloneable" ruleset="Clone Implementation" package="progen.kernel.functions" class="Bit32ERC" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/clone.html#CloneMethodMustImplementCloneable" priority="3">
+clone() method should be implemented only if implementing Cloneable interface
+</violation>
+<violation beginline="37" endline="39" begincolumn="10" endcolumn="3" rule="CloneThrowsCloneNotSupportedException" ruleset="Clone Implementation" package="progen.kernel.functions" class="Bit32ERC" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/clone.html#CloneThrowsCloneNotSupportedException" priority="3">
+clone() method should throw CloneNotSupportedException
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/functions/BitMult.java">
+<violation beginline="25" endline="53" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.kernel.functions" class="BitMult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="26" endline="26" begincolumn="9" endcolumn="9" rule="ShortVariable" ruleset="Naming" package="progen.kernel.functions" class="BitMult" method="evaluate" variable="X" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like X
+</violation>
+<violation beginline="27" endline="27" begincolumn="9" endcolumn="9" rule="ShortVariable" ruleset="Naming" package="progen.kernel.functions" class="BitMult" method="evaluate" variable="Y" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like Y
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/functions/DoubleDiv.java">
+<violation beginline="35" endline="39" begincolumn="5" endcolumn="5" rule="ConfusingTernary" ruleset="Design" package="progen.kernel.functions" class="DoubleDiv" method="evaluate" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="36" endline="36" begincolumn="7" endcolumn="33" rule="OnlyOneReturn" ruleset="Controversial" package="progen.kernel.functions" class="DoubleDiv" method="evaluate" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/controversial.html#OnlyOneReturn" priority="4">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/functions/ERC.java">
+<violation beginline="61" endline="61" begincolumn="19" endcolumn="30" rule="CloneThrowsCloneNotSupportedException" ruleset="Clone Implementation" package="progen.kernel.functions" class="ERC" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/clone.html#CloneThrowsCloneNotSupportedException" priority="3">
+clone() method should throw CloneNotSupportedException
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/functions/ERC01.java">
+<violation beginline="30" endline="34" begincolumn="3" endcolumn="3" rule="CloneMethodMustImplementCloneable" ruleset="Clone Implementation" package="progen.kernel.functions" class="ERC01" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/clone.html#CloneMethodMustImplementCloneable" priority="3">
+clone() method should be implemented only if implementing Cloneable interface
+</violation>
+<violation beginline="32" endline="34" begincolumn="10" endcolumn="3" rule="CloneThrowsCloneNotSupportedException" ruleset="Clone Implementation" package="progen.kernel.functions" class="ERC01" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/clone.html#CloneThrowsCloneNotSupportedException" priority="3">
+clone() method should throw CloneNotSupportedException
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/functions/Function.java">
+<violation beginline="53" endline="55" begincolumn="5" endcolumn="5" rule="AvoidArrayLoops" ruleset="Optimization" package="progen.kernel.functions" class="Function" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AvoidArrayLoops" priority="3">
+System.arraycopy is more efficient
+</violation>
+<violation beginline="67" endline="67" begincolumn="18" endcolumn="35" rule="InefficientStringBuffering" ruleset="String and StringBuffer" package="progen.kernel.functions" class="Function" method="getSignature" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#InefficientStringBuffering" priority="3">
+Avoid concatenating nonliterals in a StringBuffer/StringBuilder constructor or append().
+</violation>
+<violation beginline="123" endline="123" begincolumn="32" endcolumn="32" rule="ShortVariable" ruleset="Naming" package="progen.kernel.functions" class="Function" method="equals" variable="o" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like o
+</violation>
+<violation beginline="135" endline="135" begincolumn="33" endcolumn="33" rule="ShortVariable" ruleset="Naming" package="progen.kernel.functions" class="Function" method="compareTo" variable="f" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like f
+</violation>
+<violation beginline="160" endline="164" begincolumn="5" endcolumn="5" rule="ConfusingTernary" ruleset="Design" package="progen.kernel.functions" class="Function" method="load" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="180" endline="180" begincolumn="9" endcolumn="58" rule="PreserveStackTrace" ruleset="Design" package="progen.kernel.functions" class="Function" method="loadReagularFunction" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="180" endline="180" begincolumn="9" endcolumn="58" rule="PreserveStackTrace" ruleset="Design" package="progen.kernel.functions" class="Function" method="loadReagularFunction" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="198" endline="204" begincolumn="5" endcolumn="5" rule="ConfusingTernary" ruleset="Design" package="progen.kernel.functions" class="Function" method="isCompatibleWith" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="202" endline="202" begincolumn="26" endcolumn="33" rule="UnnecessaryParentheses" ruleset="Controversial" package="progen.kernel.functions" class="Function" method="isCompatibleWith" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/controversial.html#UnnecessaryParentheses" priority="4">
+This statement may have some unnecessary parentheses
+</violation>
+<violation beginline="225" endline="225" begincolumn="82" endcolumn="104" rule="LooseCoupling" ruleset="Coupling" package="progen.kernel.functions" class="Function" method="evaluate" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/functions/IntDiv.java">
+<violation beginline="35" endline="39" begincolumn="5" endcolumn="5" rule="ConfusingTernary" ruleset="Design" package="progen.kernel.functions" class="IntDiv" method="evaluate" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="36" endline="36" begincolumn="7" endcolumn="44" rule="OnlyOneReturn" ruleset="Controversial" package="progen.kernel.functions" class="IntDiv" method="evaluate" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/controversial.html#OnlyOneReturn" priority="4">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/functions/NonTerminal.java">
+<violation beginline="20" endline="22" begincolumn="10" endcolumn="3" rule="UselessOverridingMethod" ruleset="Unnecessary" package="progen.kernel.functions" class="NonTerminal" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/unnecessary.html#UselessOverridingMethod" priority="3">
+Overriding method merely calls super
+</violation>
+<violation beginline="29" endline="33" begincolumn="12" endcolumn="5" rule="ConfusingTernary" ruleset="Design" package="progen.kernel.functions" class="NonTerminal" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/grammar/Grammar.java">
+<violation beginline="89" endline="89" begincolumn="7" endcolumn="16" rule="ConstructorCallsOverridableMethod" ruleset="Design" package="progen.kernel.grammar" class="Grammar" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#ConstructorCallsOverridableMethod" priority="3">
+Overridable method 'validate' called during object construction
+</violation>
+<violation beginline="91" endline="91" begincolumn="7" endcolumn="48" rule="PreserveStackTrace" ruleset="Design" package="progen.kernel.grammar" class="Grammar" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="152" endline="152" begincolumn="21" endcolumn="21" rule="ShortVariable" ruleset="Naming" package="progen.kernel.grammar" class="Grammar" method="getProductions" variable="p" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like p
+</violation>
+<violation beginline="162" endline="162" begincolumn="21" endcolumn="21" rule="ShortVariable" ruleset="Naming" package="progen.kernel.grammar" class="Grammar" method="getProductionsCompatibleWithFunction" variable="p" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like p
+</violation>
+<violation beginline="164" endline="166" begincolumn="9" endcolumn="9" rule="CollapsibleIfStatements" ruleset="Basic" package="progen.kernel.grammar" class="Grammar" method="getProductionsCompatibleWithFunction" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/basic.html#CollapsibleIfStatements" priority="4">
+These nested if statements could be combined
+</violation>
+<violation beginline="232" endline="257" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.kernel.grammar" class="Grammar" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="248" endline="253" begincolumn="7" endcolumn="7" rule="ConfusingTernary" ruleset="Design" package="progen.kernel.grammar" class="Grammar" method="loadGrammar" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="268" endline="268" begincolumn="18" endcolumn="45" rule="InefficientStringBuffering" ruleset="String and StringBuffer" package="progen.kernel.grammar" class="Grammar" method="toString" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#InefficientStringBuffering" priority="3">
+Avoid concatenating nonliterals in a StringBuffer/StringBuilder constructor or append().
+</violation>
+<violation beginline="290" endline="293" begincolumn="9" endcolumn="9" rule="CollapsibleIfStatements" ruleset="Basic" package="progen.kernel.grammar" class="Grammar" method="getGrammarNonTerminalSymbol" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/basic.html#CollapsibleIfStatements" priority="4">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/grammar/GrammarNonTerminalSymbol.java">
+<violation beginline="63" endline="63" begincolumn="18" endcolumn="55" rule="SuspiciousEqualsMethodName" ruleset="Naming" package="progen.kernel.grammar" class="GrammarNonTerminalSymbol" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#SuspiciousEqualsMethodName" priority="2">
+The method name and parameter number are suspiciously close to equals(Object)
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/grammar/GrammarTerminalSymbol.java">
+<violation beginline="34" endline="34" begincolumn="18" endcolumn="53" rule="SuspiciousEqualsMethodName" ruleset="Naming" package="progen.kernel.grammar" class="GrammarTerminalSymbol" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#SuspiciousEqualsMethodName" priority="2">
+The method name and parameter number are suspiciously close to equals(Object)
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/grammar/Production.java">
+<violation beginline="80" endline="80" begincolumn="18" endcolumn="41" rule="InefficientStringBuffering" ruleset="String and StringBuffer" package="progen.kernel.grammar" class="Production" method="toString" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#InefficientStringBuffering" priority="3">
+Avoid concatenating nonliterals in a StringBuffer/StringBuilder constructor or append().
+</violation>
+<violation beginline="132" endline="132" begincolumn="9" endcolumn="9" rule="ShortVariable" ruleset="Naming" package="progen.kernel.grammar" class="Production" method="isSymbolGenerated" variable="i" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like i
+</violation>
+<violation beginline="191" endline="191" begincolumn="18" endcolumn="41" rule="SuspiciousEqualsMethodName" ruleset="Naming" package="progen.kernel.grammar" class="Production" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#SuspiciousEqualsMethodName" priority="2">
+The method name and parameter number are suspiciously close to equals(Object)
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/grammar/validations/InaccesibleProductions.java">
+<violation beginline="24" endline="57" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.kernel.grammar.validations" class="InaccesibleProductions" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="59" endline="59" begincolumn="48" endcolumn="48" rule="ShortVariable" ruleset="Naming" package="progen.kernel.grammar.validations" class="InaccesibleProductions" method="checkProduction" variable="p" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like p
+</violation>
+<violation beginline="61" endline="61" begincolumn="38" endcolumn="42" rule="UnusedFormalParameter" ruleset="Unused Code" package="progen.kernel.grammar.validations" class="InaccesibleProductions" method="checkProduction" variable="axiom" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused method parameters such as 'axiom'.
+</violation>
+<violation beginline="62" endline="62" begincolumn="17" endcolumn="18" rule="ShortVariable" ruleset="Naming" package="progen.kernel.grammar.validations" class="InaccesibleProductions" method="checkProduction" variable="ok" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like ok
+</violation>
+<violation beginline="75" endline="75" begincolumn="48" endcolumn="48" rule="ShortVariable" ruleset="Naming" package="progen.kernel.grammar.validations" class="InaccesibleProductions" method="isGeneretatedBy" variable="p" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like p
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/grammar/validations/SuperfluousProductions.java">
+<violation beginline="17" endline="49" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.kernel.grammar.validations" class="SuperfluousProductions" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="51" endline="51" begincolumn="56" endcolumn="61" rule="UnusedFormalParameter" ruleset="Unused Code" package="progen.kernel.grammar.validations" class="SuperfluousProductions" method="checkSymbol" variable="symbol" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused method parameters such as 'symbol'.
+</violation>
+<violation beginline="53" endline="53" begincolumn="21" endcolumn="21" rule="ShortVariable" ruleset="Naming" package="progen.kernel.grammar.validations" class="SuperfluousProductions" method="checkSymbol" variable="p" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like p
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/hypergp/HGPGrammar.java">
+<violation beginline="47" endline="47" begincolumn="18" endcolumn="18" rule="ShortVariable" ruleset="Naming" package="progen.kernel.hypergp" class="HGPGrammar" method="transformGrammar" variable="p" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like p
+</violation>
+<violation beginline="63" endline="65" begincolumn="9" endcolumn="9" rule="CollapsibleIfStatements" ruleset="Basic" package="progen.kernel.hypergp" class="HGPGrammar" method="getWildCard" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/basic.html#CollapsibleIfStatements" priority="4">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/hypergp/WildCard.java">
+<violation beginline="37" endline="37" begincolumn="5" endcolumn="22" rule="SystemPrintln" ruleset="Java Logging" package="progen.kernel.hypergp" class="WildCard" method="evaluate" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/population/Individual.java">
+<violation beginline="30" endline="30" begincolumn="11" endcolumn="31" rule="LooseCoupling" ruleset="Coupling" package="progen.kernel.population" class="Individual" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+<violation beginline="37" endline="37" begincolumn="11" endcolumn="33" rule="LooseCoupling" ruleset="Coupling" package="progen.kernel.population" class="Individual" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+<violation beginline="43" endline="43" begincolumn="11" endcolumn="34" rule="LooseCoupling" ruleset="Coupling" package="progen.kernel.population" class="Individual" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+<violation beginline="73" endline="73" begincolumn="11" endcolumn="33" rule="LooseCoupling" ruleset="Coupling" package="progen.kernel.population" class="Individual" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+<violation beginline="90" endline="90" begincolumn="21" endcolumn="44" rule="LooseCoupling" ruleset="Coupling" package="progen.kernel.population" class="Individual" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+<violation beginline="96" endline="96" begincolumn="62" endcolumn="63" rule="AddEmptyString" ruleset="Optimization" package="progen.kernel.population" class="Individual" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="101" endline="101" begincolumn="34" endcolumn="38" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.kernel.population" class="Individual" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;RPB&quot; appears 9 times in this file; the first occurrence is on line 101
+</violation>
+<violation beginline="107" endline="107" begincolumn="34" endcolumn="38" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.kernel.population" class="Individual" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;ADF&quot; appears 8 times in this file; the first occurrence is on line 107
+</violation>
+<violation beginline="152" endline="152" begincolumn="10" endcolumn="30" rule="LooseCoupling" ruleset="Coupling" package="progen.kernel.population" class="Individual" method="getTrees" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+<violation beginline="161" endline="161" begincolumn="10" endcolumn="33" rule="LooseCoupling" ruleset="Coupling" package="progen.kernel.population" class="Individual" method="getGrammars" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+<violation beginline="225" endline="225" begincolumn="29" endcolumn="51" rule="LooseCoupling" ruleset="Coupling" package="progen.kernel.population" class="Individual" method="evaluateTree" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+<violation beginline="358" endline="358" begincolumn="18" endcolumn="41" rule="SuspiciousEqualsMethodName" ruleset="Naming" package="progen.kernel.population" class="Individual" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#SuspiciousEqualsMethodName" priority="2">
+The method name and parameter number are suspiciously close to equals(Object)
+</violation>
+<violation beginline="379" endline="386" begincolumn="10" endcolumn="3" rule="CloneThrowsCloneNotSupportedException" ruleset="Clone Implementation" package="progen.kernel.population" class="Individual" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/clone.html#CloneThrowsCloneNotSupportedException" priority="3">
+clone() method should throw CloneNotSupportedException
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/population/Population.java">
+<violation beginline="24" endline="24" begincolumn="13" endcolumn="36" rule="LooseCoupling" ruleset="Coupling" package="progen.kernel.population" class="Population" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+<violation beginline="42" endline="42" begincolumn="76" endcolumn="77" rule="AddEmptyString" ruleset="Optimization" package="progen.kernel.population" class="Population" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="73" endline="73" begincolumn="64" endcolumn="65" rule="AddEmptyString" ruleset="Optimization" package="progen.kernel.population" class="Population" method="loadGrammars" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="107" endline="107" begincolumn="61" endcolumn="62" rule="AddEmptyString" ruleset="Optimization" package="progen.kernel.population" class="Population" method="loadGrammar" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="109" endline="109" begincolumn="33" endcolumn="34" rule="AddEmptyString" ruleset="Optimization" package="progen.kernel.population" class="Population" method="loadGrammar" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="134" endline="134" begincolumn="24" endcolumn="48" rule="InefficientStringBuffering" ruleset="String and StringBuffer" package="progen.kernel.population" class="Population" method="toString" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#InefficientStringBuffering" priority="3">
+Avoid concatenating nonliterals in a StringBuffer/StringBuilder constructor or append().
+</violation>
+<violation beginline="155" endline="155" begincolumn="41" endcolumn="42" rule="ShortVariable" ruleset="Naming" package="progen.kernel.population" class="Population" method="getIndividual" variable="id" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/tree/Full.java">
+<violation beginline="53" endline="57" begincolumn="5" endcolumn="5" rule="ConfusingTernary" ruleset="Design" package="progen.kernel.tree" class="Full" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="178" endline="221" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.kernel.tree" class="Full" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/tree/Grow.java">
+<violation beginline="46" endline="50" begincolumn="5" endcolumn="5" rule="ConfusingTernary" ruleset="Design" package="progen.kernel.tree" class="Grow" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="106" endline="150" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.kernel.tree" class="Grow" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/tree/HalfAndHalf.java">
+<violation beginline="29" endline="29" begincolumn="11" endcolumn="29" rule="SingularField" ruleset="Design" package="progen.kernel.tree" class="HalfAndHalf" variable="percentGrow" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#SingularField" priority="4">
+Perhaps 'percentGrow' could be replaced by a local variable.
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/tree/Node.java">
+<violation beginline="83" endline="91" begincolumn="10" endcolumn="3" rule="CloneThrowsCloneNotSupportedException" ruleset="Clone Implementation" package="progen.kernel.tree" class="Node" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/clone.html#CloneThrowsCloneNotSupportedException" priority="3">
+clone() method should throw CloneNotSupportedException
+</violation>
+<violation beginline="90" endline="90" begincolumn="5" endcolumn="17" rule="UnnecessaryLocalBeforeReturn" ruleset="Design" package="progen.kernel.tree" class="Node" method="clone" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#UnnecessaryLocalBeforeReturn" priority="3">
+Consider simply returning the value vs storing it in local variable 'clone'
+</violation>
+<violation beginline="261" endline="261" begincolumn="33" endcolumn="33" rule="ShortVariable" ruleset="Naming" package="progen.kernel.tree" class="Node" method="addTotalNodes" variable="n" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like n
+</violation>
+<violation beginline="313" endline="313" begincolumn="18" endcolumn="31" rule="InefficientStringBuffering" ruleset="String and StringBuffer" package="progen.kernel.tree" class="Node" method="toString" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#InefficientStringBuffering" priority="3">
+Avoid concatenating nonliterals in a StringBuffer/StringBuilder constructor or append().
+</violation>
+<violation beginline="315" endline="315" begincolumn="20" endcolumn="51" rule="InefficientStringBuffering" ruleset="String and StringBuffer" package="progen.kernel.tree" class="Node" method="toString" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#InefficientStringBuffering" priority="3">
+Avoid concatenating nonliterals in a StringBuffer/StringBuilder constructor or append().
+</violation>
+<violation beginline="331" endline="331" begincolumn="51" endcolumn="73" rule="LooseCoupling" ruleset="Coupling" package="progen.kernel.tree" class="Node" method="evaluate" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/kernel/tree/Tree.java">
+<violation beginline="104" endline="104" begincolumn="51" endcolumn="73" rule="LooseCoupling" ruleset="Coupling" package="progen.kernel.tree" class="Tree" method="evaluate" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+<violation beginline="130" endline="137" begincolumn="10" endcolumn="3" rule="CloneThrowsCloneNotSupportedException" ruleset="Clone Implementation" package="progen.kernel.tree" class="Tree" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/clone.html#CloneThrowsCloneNotSupportedException" priority="3">
+clone() method should throw CloneNotSupportedException
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/output/HistoricalData.java">
+<violation beginline="25" endline="25" begincolumn="11" endcolumn="40" rule="LooseCoupling" ruleset="Coupling" package="progen.output" class="HistoricalData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+<violation beginline="68" endline="68" begincolumn="41" endcolumn="42" rule="AddEmptyString" ruleset="Optimization" package="progen.output" class="HistoricalData" method="getCurrentDataCollector" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="97" endline="97" begincolumn="41" endcolumn="42" rule="AddEmptyString" ruleset="Optimization" package="progen.output" class="HistoricalData" method="getDataCollector" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="133" endline="133" begincolumn="44" endcolumn="45" rule="AddEmptyString" ruleset="Optimization" package="progen.output" class="HistoricalData" method="addCollectors" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/output/dataCollectors/DataCollector.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="36" rule="PackageCase" ruleset="Naming" package="progen.output.dataCollectors" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#PackageCase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="71" endline="71" begincolumn="11" endcolumn="59" rule="PreserveStackTrace" ruleset="Design" package="progen.output.dataCollectors" class="DataCollector" method="initDataCollector" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/output/dataCollectors/UnknownDataCollectorException.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="36" rule="PackageCase" ruleset="Naming" package="progen.output.dataCollectors" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#PackageCase" priority="3">
+Package name contains upper case characters
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/output/dataCollectors/package-info.java">
+<violation beginline="9" endline="9" begincolumn="9" endcolumn="36" rule="PackageCase" ruleset="Naming" package="progen.output.dataCollectors" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#PackageCase" priority="3">
+Package name contains upper case characters
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/output/outputers/BestIndividualFile.java">
+<violation beginline="26" endline="50" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.output.outputers" class="BestIndividualFile" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/output/outputers/FileOutput.java">
+<violation beginline="78" endline="78" begincolumn="7" endcolumn="25" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="progen.output.outputers" class="FileOutput" method="init" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="80" endline="80" begincolumn="7" endcolumn="25" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="progen.output.outputers" class="FileOutput" method="init" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/output/outputers/Formatter.java">
+<violation beginline="78" endline="106" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.output.outputers" class="Formatter" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="98" endline="98" begincolumn="45" endcolumn="55" rule="InefficientStringBuffering" ruleset="String and StringBuffer" package="progen.output.outputers" class="Formatter" method="tree" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#InefficientStringBuffering" priority="3">
+Avoid concatenating nonliterals in a StringBuffer/StringBuilder constructor or append().
+</violation>
+<violation beginline="101" endline="101" begincolumn="45" endcolumn="73" rule="InefficientStringBuffering" ruleset="String and StringBuffer" package="progen.output.outputers" class="Formatter" method="tree" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#InefficientStringBuffering" priority="3">
+Avoid concatenating nonliterals in a StringBuffer/StringBuilder constructor or append().
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/output/outputers/OutputStore.java">
+<violation beginline="69" endline="69" begincolumn="7" endcolumn="56" rule="PreserveStackTrace" ruleset="Design" package="progen.output.outputers" class="OutputStore" method="init" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="71" endline="71" begincolumn="7" endcolumn="56" rule="PreserveStackTrace" ruleset="Design" package="progen.output.outputers" class="OutputStore" method="init" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="73" endline="73" begincolumn="7" endcolumn="56" rule="PreserveStackTrace" ruleset="Design" package="progen.output.outputers" class="OutputStore" method="init" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/output/outputers/StandardConsole.java">
+<violation beginline="57" endline="57" begincolumn="60" endcolumn="85" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardConsole" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;ExperimentIndividualData&quot; appears 4 times in this file; the first occurrence is on line 57
+</violation>
+<violation beginline="90" endline="90" begincolumn="112" endcolumn="113" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardConsole" method="printHeader" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="91" endline="91" begincolumn="5" endcolumn="21" rule="SystemPrintln" ruleset="Java Logging" package="progen.output.outputers" class="StandardConsole" method="printHeader" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="92" endline="92" begincolumn="5" endcolumn="21" rule="SystemPrintln" ruleset="Java Logging" package="progen.output.outputers" class="StandardConsole" method="printHeader" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="94" endline="94" begincolumn="5" endcolumn="21" rule="SystemPrintln" ruleset="Java Logging" package="progen.output.outputers" class="StandardConsole" method="printHeader" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="101" endline="101" begincolumn="118" endcolumn="123" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardConsole" method="printBody" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;best&quot; appears 5 times in this file; the first occurrence is on line 101
+</violation>
+<violation beginline="128" endline="128" begincolumn="31" endcolumn="36" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardConsole" method="printBestHeaderTable" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;%s%s&quot; appears 57 times in this file; the first occurrence is on line 128
+</violation>
+<violation beginline="130" endline="130" begincolumn="51" endcolumn="55" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardConsole" method="printBestHeaderTable" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;raw&quot; appears 5 times in this file; the first occurrence is on line 130
+</violation>
+<violation beginline="131" endline="131" begincolumn="52" endcolumn="61" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardConsole" method="printBestHeaderTable" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;adjusted&quot; appears 5 times in this file; the first occurrence is on line 131
+</violation>
+<violation beginline="134" endline="134" begincolumn="51" endcolumn="57" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardConsole" method="printBestHeaderTable" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;nodes&quot; appears 5 times in this file; the first occurrence is on line 134
+</violation>
+<violation beginline="135" endline="135" begincolumn="52" endcolumn="58" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardConsole" method="printBestHeaderTable" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;depth&quot; appears 5 times in this file; the first occurrence is on line 135
+</violation>
+<violation beginline="140" endline="140" begincolumn="58" endcolumn="62" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardConsole" method="printBestHeaderTable" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;ADF&quot; appears 11 times in this file; the first occurrence is on line 140
+</violation>
+<violation beginline="142" endline="142" begincolumn="5" endcolumn="21" rule="SystemPrintln" ruleset="Java Logging" package="progen.output.outputers" class="StandardConsole" method="printBestHeaderTable" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="142" endline="142" begincolumn="23" endcolumn="30" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardConsole" method="printBestHeaderTable" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;%s%n%s&quot; appears 6 times in this file; the first occurrence is on line 142
+</violation>
+<violation beginline="155" endline="179" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.output.outputers" class="StandardConsole" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="160" endline="160" begincolumn="55" endcolumn="66" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardConsole" method="printBestData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;individual&quot; appears 8 times in this file; the first occurrence is on line 160
+</violation>
+<violation beginline="167" endline="167" begincolumn="30" endcolumn="35" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardConsole" method="printBestData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;%.5f&quot; appears 4 times in this file; the first occurrence is on line 167
+</violation>
+<violation beginline="171" endline="171" begincolumn="117" endcolumn="118" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardConsole" method="printBestData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="171" endline="171" begincolumn="78" endcolumn="82" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardConsole" method="printBestData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;RPB&quot; appears 9 times in this file; the first occurrence is on line 171
+</violation>
+<violation beginline="172" endline="172" begincolumn="119" endcolumn="120" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardConsole" method="printBestData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="175" endline="175" begincolumn="117" endcolumn="118" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardConsole" method="printBestData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="176" endline="176" begincolumn="119" endcolumn="120" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardConsole" method="printBestData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="178" endline="178" begincolumn="5" endcolumn="21" rule="SystemPrintln" ruleset="Java Logging" package="progen.output.outputers" class="StandardConsole" method="printBestData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="199" endline="199" begincolumn="5" endcolumn="22" rule="SystemPrintln" ruleset="Java Logging" package="progen.output.outputers" class="StandardConsole" method="printBestTail" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="235" endline="235" begincolumn="5" endcolumn="21" rule="SystemPrintln" ruleset="Java Logging" package="progen.output.outputers" class="StandardConsole" method="printTimeEvaluation" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="254" endline="254" begincolumn="5" endcolumn="21" rule="SystemPrintln" ruleset="Java Logging" package="progen.output.outputers" class="StandardConsole" method="printTimeBreeding" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="272" endline="272" begincolumn="5" endcolumn="21" rule="SystemPrintln" ruleset="Java Logging" package="progen.output.outputers" class="StandardConsole" method="printTimeHeaderTable" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="297" endline="322" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.output.outputers" class="StandardConsole" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="321" endline="321" begincolumn="5" endcolumn="22" rule="SystemPrintln" ruleset="Java Logging" package="progen.output.outputers" class="StandardConsole" method="printIndividualGenerationMeanData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="327" endline="352" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.output.outputers" class="StandardConsole" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="343" endline="343" begincolumn="117" endcolumn="118" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardConsole" method="printIndividualBestRunData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="344" endline="344" begincolumn="119" endcolumn="120" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardConsole" method="printIndividualBestRunData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="347" endline="347" begincolumn="117" endcolumn="118" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardConsole" method="printIndividualBestRunData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="348" endline="348" begincolumn="119" endcolumn="120" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardConsole" method="printIndividualBestRunData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="350" endline="350" begincolumn="5" endcolumn="22" rule="SystemPrintln" ruleset="Java Logging" package="progen.output.outputers" class="StandardConsole" method="printIndividualBestRunData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="357" endline="382" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.output.outputers" class="StandardConsole" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="373" endline="373" begincolumn="118" endcolumn="119" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardConsole" method="printIndividualWorstData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="374" endline="374" begincolumn="120" endcolumn="121" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardConsole" method="printIndividualWorstData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="377" endline="377" begincolumn="118" endcolumn="119" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardConsole" method="printIndividualWorstData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="378" endline="378" begincolumn="120" endcolumn="121" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardConsole" method="printIndividualWorstData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="380" endline="380" begincolumn="5" endcolumn="21" rule="SystemPrintln" ruleset="Java Logging" package="progen.output.outputers" class="StandardConsole" method="printIndividualWorstData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="403" endline="403" begincolumn="5" endcolumn="21" rule="SystemPrintln" ruleset="Java Logging" package="progen.output.outputers" class="StandardConsole" method="printIndividualSubHeaderTable" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="410" endline="435" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.output.outputers" class="StandardConsole" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="434" endline="434" begincolumn="5" endcolumn="21" rule="SystemPrintln" ruleset="Java Logging" package="progen.output.outputers" class="StandardConsole" method="printIndividualHeaderTable" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/output/outputers/StandardFile.java">
+<violation beginline="57" endline="57" begincolumn="72" endcolumn="97" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardFile" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;ExperimentIndividualData&quot; appears 4 times in this file; the first occurrence is on line 57
+</violation>
+<violation beginline="93" endline="93" begincolumn="85" endcolumn="86" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardFile" method="printHeader" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="104" endline="104" begincolumn="127" endcolumn="132" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardFile" method="printBody" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;best&quot; appears 5 times in this file; the first occurrence is on line 104
+</violation>
+<violation beginline="131" endline="131" begincolumn="43" endcolumn="48" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardFile" method="printBestHeaderTable" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;%s%s&quot; appears 57 times in this file; the first occurrence is on line 131
+</violation>
+<violation beginline="133" endline="133" begincolumn="61" endcolumn="65" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardFile" method="printBestHeaderTable" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;raw&quot; appears 5 times in this file; the first occurrence is on line 133
+</violation>
+<violation beginline="134" endline="134" begincolumn="62" endcolumn="71" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardFile" method="printBestHeaderTable" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;adjusted&quot; appears 5 times in this file; the first occurrence is on line 134
+</violation>
+<violation beginline="137" endline="137" begincolumn="61" endcolumn="67" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardFile" method="printBestHeaderTable" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;nodes&quot; appears 5 times in this file; the first occurrence is on line 137
+</violation>
+<violation beginline="138" endline="138" begincolumn="62" endcolumn="68" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardFile" method="printBestHeaderTable" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;depth&quot; appears 5 times in this file; the first occurrence is on line 138
+</violation>
+<violation beginline="143" endline="143" begincolumn="77" endcolumn="81" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardFile" method="printBestHeaderTable" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;ADF&quot; appears 11 times in this file; the first occurrence is on line 143
+</violation>
+<violation beginline="145" endline="145" begincolumn="31" endcolumn="38" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardFile" method="printBestHeaderTable" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;%s%n%s&quot; appears 6 times in this file; the first occurrence is on line 145
+</violation>
+<violation beginline="158" endline="182" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.output.outputers" class="StandardFile" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="163" endline="163" begincolumn="65" endcolumn="76" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardFile" method="printBestData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;individual&quot; appears 8 times in this file; the first occurrence is on line 163
+</violation>
+<violation beginline="170" endline="170" begincolumn="40" endcolumn="45" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardFile" method="printBestData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;%.5f&quot; appears 4 times in this file; the first occurrence is on line 170
+</violation>
+<violation beginline="174" endline="174" begincolumn="132" endcolumn="133" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardFile" method="printBestData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="174" endline="174" begincolumn="97" endcolumn="101" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.outputers" class="StandardFile" method="printBestData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;RPB&quot; appears 9 times in this file; the first occurrence is on line 174
+</violation>
+<violation beginline="175" endline="175" begincolumn="134" endcolumn="135" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardFile" method="printBestData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="178" endline="178" begincolumn="132" endcolumn="133" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardFile" method="printBestData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="179" endline="179" begincolumn="134" endcolumn="135" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardFile" method="printBestData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="300" endline="324" begincolumn="17" endcolumn="57" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.output.outputers" class="StandardFile" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="329" endline="354" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.output.outputers" class="StandardFile" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="345" endline="345" begincolumn="132" endcolumn="133" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardFile" method="printIndividualBestRunData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="346" endline="346" begincolumn="134" endcolumn="135" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardFile" method="printIndividualBestRunData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="349" endline="349" begincolumn="132" endcolumn="133" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardFile" method="printIndividualBestRunData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="350" endline="350" begincolumn="134" endcolumn="135" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardFile" method="printIndividualBestRunData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="359" endline="384" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.output.outputers" class="StandardFile" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="375" endline="375" begincolumn="133" endcolumn="134" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardFile" method="printIndividualWorstData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="376" endline="376" begincolumn="135" endcolumn="136" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardFile" method="printIndividualWorstData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="379" endline="379" begincolumn="133" endcolumn="134" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardFile" method="printIndividualWorstData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="380" endline="380" begincolumn="135" endcolumn="136" rule="AddEmptyString" ruleset="Optimization" package="progen.output.outputers" class="StandardFile" method="printIndividualWorstData" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="412" endline="437" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.output.outputers" class="StandardFile" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/output/plugins/IndividualMeanPlugin.java">
+<violation beginline="33" endline="33" begincolumn="29" endcolumn="36" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.plugins" class="IndividualMeanPlugin" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;-nodes&quot; appears 4 times in this file; the first occurrence is on line 33
+</violation>
+<violation beginline="33" endline="33" begincolumn="17" endcolumn="21" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.plugins" class="IndividualMeanPlugin" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;RPB&quot; appears 6 times in this file; the first occurrence is on line 33
+</violation>
+<violation beginline="34" endline="34" begincolumn="29" endcolumn="36" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.plugins" class="IndividualMeanPlugin" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;-depth&quot; appears 4 times in this file; the first occurrence is on line 34
+</violation>
+<violation beginline="37" endline="37" begincolumn="17" endcolumn="21" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.output.plugins" class="IndividualMeanPlugin" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;ADF&quot; appears 6 times in this file; the first occurrence is on line 37
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/output/plugins/Mean.java">
+<violation beginline="25" endline="25" begincolumn="5" endcolumn="18" rule="ConstructorCallsOverridableMethod" ruleset="Design" package="progen.output.plugins" class="Mean" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#ConstructorCallsOverridableMethod" priority="3">
+Overridable method 'initialValue' called during object construction
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/output/plugins/Median.java">
+<violation beginline="24" endline="24" begincolumn="5" endcolumn="18" rule="ConstructorCallsOverridableMethod" ruleset="Design" package="progen.output.plugins" class="Median" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#ConstructorCallsOverridableMethod" priority="3">
+Overridable method 'initialValue' called during object construction
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/output/plugins/StatisticalPlugin.java">
+<violation beginline="44" endline="44" begincolumn="10" endcolumn="32" rule="LooseCoupling" ruleset="Coupling" package="progen.output.plugins" class="StatisticalPlugin" method="getValue" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+<violation beginline="97" endline="97" begincolumn="9" endcolumn="76" rule="PreserveStackTrace" ruleset="Design" package="progen.output.plugins" class="StatisticalPlugin" method="initPlugin" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="99" endline="99" begincolumn="9" endcolumn="76" rule="PreserveStackTrace" ruleset="Design" package="progen.output.plugins" class="StatisticalPlugin" method="initPlugin" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="101" endline="101" begincolumn="9" endcolumn="76" rule="PreserveStackTrace" ruleset="Design" package="progen.output.plugins" class="StatisticalPlugin" method="initPlugin" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/output/plugins/TimePlugin.java">
+<violation beginline="52" endline="52" begincolumn="10" endcolumn="32" rule="LooseCoupling" ruleset="Coupling" package="progen.output.plugins" class="TimePlugin" method="getValue" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+<violation beginline="106" endline="106" begincolumn="9" endcolumn="76" rule="PreserveStackTrace" ruleset="Design" package="progen.output.plugins" class="TimePlugin" method="initPlugin" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="108" endline="108" begincolumn="9" endcolumn="76" rule="PreserveStackTrace" ruleset="Design" package="progen.output.plugins" class="TimePlugin" method="initPlugin" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="110" endline="110" begincolumn="9" endcolumn="76" rule="PreserveStackTrace" ruleset="Design" package="progen.output.plugins" class="TimePlugin" method="initPlugin" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/roles/ProGenFactory.java">
+<violation beginline="68" endline="68" begincolumn="9" endcolumn="57" rule="PreserveStackTrace" ruleset="Design" package="progen.roles" class="ProGenFactory" method="makeInstance" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="70" endline="70" begincolumn="9" endcolumn="57" rule="PreserveStackTrace" ruleset="Design" package="progen.roles" class="ProGenFactory" method="makeInstance" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="72" endline="72" begincolumn="9" endcolumn="57" rule="PreserveStackTrace" ruleset="Design" package="progen.roles" class="ProGenFactory" method="makeInstance" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="83" endline="83" begincolumn="25" endcolumn="44" rule="InefficientStringBuffering" ruleset="String and StringBuffer" package="progen.roles" class="ProGenFactory" method="getFactoryClass" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#InefficientStringBuffering" priority="3">
+Avoid concatenating nonliterals in a StringBuffer/StringBuilder constructor or append().
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/roles/distributed/ClientDistributed.java">
+<violation beginline="28" endline="30" begincolumn="12" endcolumn="5" rule="UselessOverridingMethod" ruleset="Unnecessary" package="progen.roles.distributed" class="ClientDistributed" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/unnecessary.html#UselessOverridingMethod" priority="3">
+Overriding method merely calls super
+</violation>
+<violation beginline="39" endline="39" begincolumn="13" endcolumn="73" rule="PreserveStackTrace" ruleset="Design" package="progen.roles.distributed" class="ClientDistributed" method="initDispatcher" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="41" endline="41" begincolumn="13" endcolumn="73" rule="PreserveStackTrace" ruleset="Design" package="progen.roles.distributed" class="ClientDistributed" method="initDispatcher" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="43" endline="43" begincolumn="13" endcolumn="73" rule="PreserveStackTrace" ruleset="Design" package="progen.roles.distributed" class="ClientDistributed" method="initDispatcher" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/roles/distributed/DispatcherDistributed.java">
+<violation beginline="37" endline="37" begincolumn="13" endcolumn="51" rule="PreserveStackTrace" ruleset="Design" package="progen.roles.distributed" class="DispatcherDistributed" method="start" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="42" endline="42" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Java Logging" package="progen.roles.distributed" class="DispatcherDistributed" method="addWorker" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="46" endline="46" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Java Logging" package="progen.roles.distributed" class="DispatcherDistributed" method="asignTask" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="51" endline="51" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Java Logging" package="progen.roles.distributed" class="DispatcherDistributed" method="getResults" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="56" endline="56" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Java Logging" package="progen.roles.distributed" class="DispatcherDistributed" method="stopTask" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="63" endline="63" begincolumn="13" endcolumn="68" rule="PreserveStackTrace" ruleset="Design" package="progen.roles.distributed" class="DispatcherDistributed" method="totalTasksDone" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/roles/distributed/DispatcherServer.java">
+<violation beginline="65" endline="65" begincolumn="5" endcolumn="22" rule="SystemPrintln" ruleset="Java Logging" package="progen.roles.distributed" class="DispatcherServer" method="totalTasksDone" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="75" endline="75" begincolumn="7" endcolumn="59" rule="PreserveStackTrace" ruleset="Design" package="progen.roles.distributed" class="DispatcherServer" method="stopTask" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="77" endline="77" begincolumn="7" endcolumn="25" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="progen.roles.distributed" class="DispatcherServer" method="stopTask" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="79" endline="79" begincolumn="7" endcolumn="25" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="progen.roles.distributed" class="DispatcherServer" method="stopTask" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="102" endline="102" begincolumn="7" endcolumn="68" rule="PreserveStackTrace" ruleset="Design" package="progen.roles.distributed" class="DispatcherServer" method="start" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="104" endline="104" begincolumn="7" endcolumn="68" rule="PreserveStackTrace" ruleset="Design" package="progen.roles.distributed" class="DispatcherServer" method="start" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="106" endline="106" begincolumn="7" endcolumn="68" rule="PreserveStackTrace" ruleset="Design" package="progen.roles.distributed" class="DispatcherServer" method="start" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/roles/distributed/DistributedFactory.java">
+<violation beginline="47" endline="67" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.roles.distributed" class="DistributedFactory" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="52" endline="62" begincolumn="7" endcolumn="7" rule="SwitchStmtsShouldHaveDefault" ruleset="Design" package="progen.roles.distributed" class="DistributedFactory" method="makeExecutionRole" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#SwitchStmtsShouldHaveDefault" priority="3">
+Switch statements should have a default label
+</violation>
+<violation beginline="64" endline="64" begincolumn="7" endcolumn="43" rule="PreserveStackTrace" ruleset="Design" package="progen.roles.distributed" class="DistributedFactory" method="makeExecutionRole" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="75" endline="75" begincolumn="7" endcolumn="61" rule="PreserveStackTrace" ruleset="Design" package="progen.roles.distributed" class="DistributedFactory" method="loadRole" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="77" endline="77" begincolumn="7" endcolumn="61" rule="PreserveStackTrace" ruleset="Design" package="progen.roles.distributed" class="DistributedFactory" method="loadRole" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="79" endline="79" begincolumn="7" endcolumn="61" rule="PreserveStackTrace" ruleset="Design" package="progen.roles.distributed" class="DistributedFactory" method="loadRole" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/roles/distributed/ProGenDistributedException.java">
+<violation beginline="17" endline="17" begincolumn="41" endcolumn="42" rule="ShortVariable" ruleset="Naming" package="progen.roles.distributed" class="ProGenDistributedException" variable="id" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/roles/distributed/WorkerDistributed.java">
+<violation beginline="17" endline="17" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Java Logging" package="progen.roles.distributed" class="WorkerDistributed" method="start" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="17" endline="17" begincolumn="36" endcolumn="56" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="progen.roles.distributed" class="WorkerDistributed" method="start" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;NOT IMPLEMENTED YET&quot; appears 5 times in this file; the first occurrence is on line 17
+</violation>
+<violation beginline="22" endline="22" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Java Logging" package="progen.roles.distributed" class="WorkerDistributed" method="calculate" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="27" endline="27" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Java Logging" package="progen.roles.distributed" class="WorkerDistributed" method="getId" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="32" endline="32" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Java Logging" package="progen.roles.distributed" class="WorkerDistributed" method="getPort" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="37" endline="37" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Java Logging" package="progen.roles.distributed" class="WorkerDistributed" method="getTask" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/roles/standalone/ClientLocal.java">
+<violation beginline="64" endline="88" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.roles.standalone" class="ClientLocal" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="80" endline="80" begincolumn="7" endcolumn="24" rule="SystemPrintln" ruleset="Java Logging" package="progen.roles.standalone" class="ClientLocal" method="start" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+<violation beginline="86" endline="86" begincolumn="5" endcolumn="22" rule="SystemPrintln" ruleset="Java Logging" package="progen.roles.standalone" class="ClientLocal" method="start" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.print is used
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/roles/standalone/DispatcherLocal.java">
+<violation beginline="22" endline="22" begincolumn="11" endcolumn="32" rule="SingularField" ruleset="Design" package="progen.roles.standalone" class="DispatcherLocal" variable="factory" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#SingularField" priority="4">
+Perhaps 'factory' could be replaced by a local variable.
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/roles/standalone/StandaloneFactory.java">
+<violation beginline="50" endline="50" begincolumn="7" endcolumn="61" rule="PreserveStackTrace" ruleset="Design" package="progen.roles.standalone" class="StandaloneFactory" method="loadRole" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="56" endline="76" begincolumn="10" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.roles.standalone" class="StandaloneFactory" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="61" endline="71" begincolumn="7" endcolumn="7" rule="SwitchStmtsShouldHaveDefault" ruleset="Design" package="progen.roles.standalone" class="StandaloneFactory" method="makeExecutionRole" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#SwitchStmtsShouldHaveDefault" priority="3">
+Switch statements should have a default label
+</violation>
+<violation beginline="73" endline="73" begincolumn="7" endcolumn="46" rule="PreserveStackTrace" ruleset="Design" package="progen.roles.standalone" class="StandaloneFactory" method="makeExecutionRole" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+</file>
+<file name="/Users/jirsis/Documents/uni/ProGen/progen/src/main/java/progen/userprogram/UserProgram.java">
+<violation beginline="26" endline="46" begincolumn="17" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Code Size" package="progen.userprogram" class="UserProgram" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="38" endline="38" begincolumn="7" endcolumn="48" rule="PreserveStackTrace" ruleset="Design" package="progen.userprogram" class="UserProgram" method="getUserProgram" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="40" endline="40" begincolumn="7" endcolumn="48" rule="PreserveStackTrace" ruleset="Design" package="progen.userprogram" class="UserProgram" method="getUserProgram" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="42" endline="42" begincolumn="7" endcolumn="76" rule="PreserveStackTrace" ruleset="Design" package="progen.userprogram" class="UserProgram" method="getUserProgram" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+</file>
+</pmd>
