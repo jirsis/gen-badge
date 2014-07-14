@@ -2,11 +2,11 @@ var fs = require('fs');
 var http = require('http');
 var path = require('path');
 
-var shields = function(budge){
+var shields = function(badge){
   var url ='http://img.shields.io/badge/'
-    + budge.subject + '-'
-    + budge.status + '-'
-    + budge.color + '.svg';
+    + badge.subject + '-'
+    + badge.status + '-'
+    + badge.color + '.svg';
 
   http.get(url, function(res) {
     var body = '';
@@ -14,11 +14,11 @@ var shields = function(budge){
         body += chunk;
     });
     res.on('end', function() {
-        var file = fs.createWriteStream(budge.path+ budge.subject+ '.svg');
+        var file = fs.createWriteStream(badge.path+ badge.subject+ '.svg');
         file.once('open', function(fd){
           file.write(body);
           file.close();
-          console.log('Generated '+path.resolve(budge.subject)+'.svg');
+          console.log('Generated '+path.resolve(badge.subject)+'.svg');
         });
     });
   }).on('error', function(e) {
@@ -26,4 +26,4 @@ var shields = function(budge){
   });
 }
 
-module.exports.budge = shields;
+module.exports.badge = shields;
