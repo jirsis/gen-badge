@@ -18,7 +18,7 @@ var shields = function(badge){
         file.once('open', function(fd){
           file.write(body);
           file.close();
-          console.log('Generated '+path.resolve(badge.subject)+'.svg');
+          console.log('Generated '+path.resolve(badge.path+badge.subject)+'.svg');
         });
     });
   }).on('error', function(e) {
