@@ -9,6 +9,9 @@ module.exports.calculate = function(value, criticalValue){
   if(interval !== 0){
     colour = Math.ceil(value/interval);
   }
-  if (colour > (lastColour) ) colour = lastColour;
+  if (colour > lastColour ) colour = lastColour;
+  if(value === 0 && value <= criticalValue){
+      colour = 0;
+    }
   return colour;
 }
