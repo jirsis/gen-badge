@@ -6,10 +6,10 @@ var colours = require('./colours');
 
 var calculateColor = function(info, minor, mayor, critical, blocker){
   var color = colours.calculate(info, 1000);
-  color = Math.max(color, colours.calculate(minor, 500));
-  color = Math.max(color, colours.calculate(mayor, 150));
-  color = Math.max(color, colours.calculate(critical, 5));
-  color = Math.max(color, colours.calculate(blocker, 0));
+  color = Math.max(color, colours.calculate(minor, 750));
+  color = Math.max(color, colours.calculate(mayor, 400));
+  color = Math.max(color, colours.calculate(critical, 50));
+  color = Math.max(color, colours.calculate(blocker, 10));
   return coloursValues[color];
 }
 
