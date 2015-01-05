@@ -6,7 +6,8 @@ var shields = function(badge){
   var url ='http://img.shields.io/badge/'
     + badge.subject + '-'
     + badge.status + '-'
-    + badge.color + '.svg';
+    + badge.color + '.svg'
+    + '?style=flat';
 
   http.get(url, function(res) {
     var body = '';
