@@ -11,7 +11,7 @@ var shields = function(badge){
   console.log("shield url: "+url);
   https.get(url, function(res) {
     if (res.statusCode === 200) {
-      var file = fs.createWriteStream(badge.subject+'.svg');
+      var file = fs.createWriteStream(path.resolve(badge.path+badge.subject)+'.svg');
       res.pipe(file);
       console.log('Generated '+path.resolve(badge.path+badge.subject)+'.svg');
     }else{
