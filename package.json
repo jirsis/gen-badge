@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/jirsis/gen-bugde",
   "dependencies": {
-    "cheerio": "^0.17.0"
+    "cheerio": "0.17.0"
   }
 }
