@@ -1,27 +1,22 @@
 var fs = require('fs');
-var http = require('http');
+var https = require('https');
 var path = require('path');
 
 var shields = function(badge){
-  var url ='http://img.shields.io/badge/'
+  var url ='https://img.shields.io/badge/'
     + badge.subject + '-'
     + badge.status + '-'
     + badge.color + '.svg'
     + '?style=flat';
-
-  http.get(url, function(res) {
-    var body = '';
-    res.on('data', function(chunk) {
-        body += chunk;
-    });
-    res.on('end', function() {
-        var file = fs.createWriteStream(badge.path+ badge.subject+ '.svg');
-        file.once('open', function(fd){
-          file.write(body);
-          file.close();
-          console.log('Generated '+path.resolve(badge.path+badge.subject)+'.svg');
-        });
-    });
+  console.log("shield url: "+url);
+  https.get(url, function(res) {
+    if (res.statusCode === 200) {
+      var file = fs.createWriteStream(badge.subject+'.svg');
+      res.pipe(file);
+      console.log('Generated '+path.resolve(badge.path+badge.subject)+'.svg');
+    }else{
+      console.log("Got error: ", res.statusCode);
+    }
   }).on('error', function(e) {
     console.log("Got error: ", e);
   });
